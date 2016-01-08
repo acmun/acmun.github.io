@@ -22,9 +22,10 @@ a:hover{
     background-color: #EBEBEB;
 }
 
-.btn-group a.btn{
+a.btn{
     padding-right: 10px;
     font-size: 23px;
+    float: right;
 }
 
 h2.title{
@@ -32,6 +33,26 @@ h2.title{
     text-transform: uppercase;
     font-family: "source_sans_probold";
     margin-top: 0;
+}
+.slide-wrap{
+    position: absolute; left: 50%;
+    top: 40%;
+}
+.slides{
+    position: relative;
+}
+.slide-head{
+    position: relative; left: -50%;
+    top: 0;
+    z-index: 999;
+}
+.slide-head span{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.64);
+    padding: 10px 90px;
+    width: 100%;
 }
 
 /*
@@ -157,7 +178,7 @@ ul.sub-sub-menu a{
     margin-left: 30px;
     color: white;
     font-family: 'dejavu_serifbook';
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .nav-bar{
@@ -209,7 +230,8 @@ ul.sub-sub-menu a{
     position: relative;
     background: #f8f8f8;
     padding: 0px 0px;
-    max-width: 90%;
+    max-width: 100%;
+    width: 100%;
 }
 
 .big-image img{
@@ -265,8 +287,8 @@ ul.sub-sub-menu a{
     padding-top: 10px;
     padding-bottom: 10px;
     /* background-color: rgba(255, 255, 255, 0.66); */
-    border-bottom: 1px solid #DEDEDE;
-    border-top: 1px solid #DCDBDB;
+    border-bottom: 1px solid #BBB8B8;
+    border-top: 1px solid #BBB8B8;
 }
 
 .venue{
@@ -357,12 +379,16 @@ p.more a:hover .icon{
     border-bottom: 1px solid #F1EDED;
     padding: 15px;
     font-size: 18px;
+    background: url('http://www.texturevault.net/grunge_background_sjpg24573.jpg');
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .counter-header p{
     margin-bottom: 0px;
     font-weight: bold;
-    color: #4B4C4E;
+    color: #fff;
     font-size: 20px;
 }
 
@@ -564,6 +590,9 @@ td{
 }
 .contact-info{
     padding-left: 4em;
+}
+.bx-wrapper, .bx-viewport{
+    /*height: 560px !important;*/
 }
 @media (max-width: 600px) {
     .wrapper{
