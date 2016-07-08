@@ -70,6 +70,8 @@
 
 <!-- Header start -->
 <header id="header" role="banner">
+
+    <!-- Logo start -->
     <nav class="navbar navbar-default navbar-fixed-top on" id="tf-menu">
         <div class="container">
             <div class="row">
@@ -91,12 +93,29 @@
                 </div><!--/ Logo end -->
                 <div class="collapse navbar-collapse clearfix navMenu" role="navigation">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class=""><a class="page-scroll" href="/">Home</a></li>
+                        <li class=""><a class="page-scroll" href="#">Home</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="coming-soon.html">Executive Council</a></li>
+                                <li class="menu-item dropdown dropdown-submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Executive Council</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="menu-item ">
+                                            <a href="#">Secretary General</a>
+                                        </li>
+
+                                        <li class="menu-item ">
+                                            <a href="#">President</a>
+                                        </li>
+
+                                        <li class="menu-item ">
+                                            <a href="#">Director General</a>
+                                        </li>
+
+
+                                    </ul>
+                                </li>
                                 <li><a href="coming-soon.html">Secratariat</a></li>
                                 <li><a href="coming-soon.html">Directorate</a></li>
                             </ul>
@@ -107,11 +126,11 @@
                                aria-haspopup="true" aria-expanded="false">Information<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="coming-soon.html">Rules of Procedure</a></li>
-                                <li><a href="coming-soon.html">Position Paper Sample</a></li>
-                                <li><a href="coming-soon.html">Registration Guidelines</a></li>
+                                <li><a href="images/position-paper.pdf">Position Paper Sample</a></li>
+                                <li><a href="images/registration-details-acmun-vii.pdf">Registration Guidelines</a></li>
 
                                 <li><a href="images/schedule.pdf">Schedule</a></li>
-                                <li><a href="coming-soon.html">Draft Resolution Sample</a></li>
+                                <li><a href="images/resolution.pdf">Draft Resolution Sample</a></li>
                                 <li><a href="coming-soon.html">Outstation Information</a></li>
                             </ul>
                         </li>
@@ -156,44 +175,31 @@
 <section id="section-committee-team" style="margin-bottom:100px;">
     <div class="container">
         <div class="row" style="text-align: center;">
-            <div class="col-md-4 col-xs-4">
+            <div class="col-md-4 col-xs-6 col-md-offset-2">
                 <div class="member-picture">
                     <img class="img-circle" src="images/avatar.jpg">
                 </div>
 
                 <div class="member-info">
-                    <span class="member-name">Nafeel Irfan</span><br/>
-                    <span class="member-title">Director</span>
+                    <span class="member-name">Ali Ajmair</span><br/>
+                    <span class="member-title">Chair</span>
                 </div>
             </div>
 
-            <div class="col-md-4 col-xs-4">
-                <div class="member-picture">
-                    <img class="img-circle" src="images/avatar.jpg">
-                </div>
-
-                <div class="member-info">
-                    <span class="member-name">---</span><br>
-                    <span class="member-title">Assistant Director</span>
-                </div>
+            <div class="col-md-6 col-xs-6 committee-directors">
+                <h1>Directors</h1>
+                <hr/>
+                <ul>
+                    <li>Omer Shakeel</li>
+                    <li>Arman Nazir</li>
+                </ul>
             </div>
 
-            <div class="col-md-4 col-xs-4">
-                <div class="member-picture">
-                    <img class="img-circle" src="images/avatar.jpg">
-                </div>
-
-                <div class="member-info">
-                    <span class="member-name">---</span><br/>
-                    <span class="member-title">Assistant Director</span>
-                </div>
-            </div>
 
         </div>
     </div>
 
 </section>
-
 
 <section id="section-committee-topic" style="margin-bottom:100px;">
 
@@ -225,7 +231,8 @@
 
             </p>
 
-            <h4 style="text-align:center;margin-top:40px;">Topic Area B: Censorship of Media and Journalistic Freedom</h4>
+            <h4 style="text-align:center;margin-top:40px;">Topic Area B: Censorship of Media and Journalistic
+                Freedom</h4>
 
             <p>
 
@@ -366,6 +373,7 @@
 <!-- Custom js -->
 <script>
 		new WOW().init();
+
 
 
 
