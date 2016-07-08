@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.css">
     <!-- Scrolling nav css -->
+    <link rel="stylesheet" href="css/scrolling-nav.css">
     <!-- Template styles-->
     <link rel="stylesheet" href="css/style.css">
     <!-- Responsive styles-->
@@ -38,144 +39,103 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   <style type="text/css">:root #header + #content > #left > #rlblock_left
-{display:none !important;}</style><script type="text/javascript" charset="UTF-8" src="js/common.js"></script><script type="text/javascript" charset="UTF-8" src="js/util.js"></script><script type="text/javascript" charset="UTF-8" src="js/stats.js"></script>
-
-<style type="text/css">
-
-#section-contact{
-    padding-bottom: 0px;
-    margin-top: 75px;
-}
-
-#section-feature{
-        margin-bottom: 75px;
-        background: white;
-}
-
-#section-feature h2{
-       font-size: 26px;
-       margin-bottom: 40px;
-}
-
-.item-features .feature-box{
-    background: #151c5d;
-}
-
-@media (min-width: 991px) {
-  .item-features {
-    padding-left: 60px;
-}
-}
-
-.feature-box a .title{
-    text-transform: capitalize;
-}
-</style>
-
-</head>
+{display:none !important;}</style><script type="text/javascript" charset="UTF-8" src="js/common.js"></script><script type="text/javascript" charset="UTF-8" src="js/util.js"></script><script type="text/javascript" charset="UTF-8" src="js/stats.js"></script></head>
   <body data-spy="scroll" data-target=".navbar-fixed-top">
     
 <!-- Header start -->
 	<header id="header" role="banner">
-		<nav class="navbar navbar-default navbar-fixed-top on" id="tf-menu">
+		<nav class="navbar navbar-default navbar-fixed-top" id="tf-menu">
 			<div class="container">
 				<div class="row">
 					<!-- Logo start -->
-					  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <div class="navbar-brand">
-                        <a href="index.html#" class="logo page-scroll">
-                            <img src="images/logo.png" style="width:50px;margin-top:-8px;"></img>
-                            <span class="span-styled" style="color:#f8ee00;">A</span><span class="span-styled"
-                                                                                           style="color:#3F51B5">C</span>MUN
-                        </a>
-                    </div>
-                </div><!--/ Logo end -->
-                <div class="collapse navbar-collapse clearfix navMenu" role="navigation">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class=""><a class="page-scroll" href="#">Home</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li class="menu-item dropdown dropdown-submenu">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Executive Council</a>
-                                    <ul class="dropdown-menu">
-                                        <li class="menu-item ">
-                                            <a href="#">Secretary General</a>
-                                        </li>
-
-                                        <li class="menu-item ">
-                                            <a href="#">President</a>
-                                        </li>
-
-                                        <li class="menu-item ">
-                                            <a href="#">Director General</a>
-                                        </li>
-
-
-                                    </ul>
-                                </li>
-                                <li><a href="coming-soon.html">Secratariat</a></li>
-                                <li><a href="coming-soon.html">Directorate</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-haspopup="true" aria-expanded="false">Information<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="coming-soon.html">Rules of Procedure</a></li>
-                                <li><a href="images/position-paper.docx">Position Paper Sample</a></li>
-                                <li><a href="images/registration-details-acmun-vii.docx">Registration Guidelines</a></li>
-
-                                <li><a href="images/schedule.pdf">Schedule</a></li>
-                                <li><a href="images/resolution.docx">Draft Resolution Sample</a></li>
-                                <li><a href="coming-soon.html">Outstation Information</a></li>
-                            </ul>
-                        </li>
-
-
-                        <li class=""><a class="page-scroll" href="index.html#section-offer">Register</a></li>
-                        <li class=""><a class="page-scroll" href="committees.html">Committees</a></li>
-                        <li class=""><a class="page-scroll" href="index.html#section-contact">Contact</a></li>
-
-
-                    </ul>
-                </div><!--/ Navigation end -->
+					<div class="navbar-header">
+					    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					    </button>
+					    <div class="navbar-brand">
+						    <a href="index.html#" class="logo page-scroll">
+                                <img src="images/logo.png" style="width:50px;margin-top:-8px;"></img>
+                                <span class="span-styled" style="color:#f8ee00;">A</span><span class="span-styled" style="color:#3F51B5">C</span>MUN
+						    </a> 
+					    </div>                   
+					</div><!--/ Logo end -->
+					<div class="collapse navbar-collapse clearfix navMenu" role="navigation">
+						<ul class="nav navbar-nav navbar-right">
+				            <li class=""><a class="page-scroll" href=".slider">Home</a></li>
+				            <li class=""><a class="page-scroll" href="index.html#section-about">About</a></li>
+				            <li class=""><a class="page-scroll" href="index.html#section-contact">Contact</a></li>
+                            <li class=""><a class="page-scroll" href="index.html#section-contact">Register</a></li>
+                            <li class=""><a class="page-scroll" href="committees.html">Committees</a></li>
+				        </ul>
+	      			</div><!--/ Navigation end -->
 				</div><!--/ Row end -->
 			</div><!--/ Container end -->
 		</nav>
 	</header><!--/ Header end -->
     <!-- END MAIN NAV -->
+    
+    <!-- slider section -->
+   
+   
+    <!-- section counter end -->
 
-    <section id="section-contact">
-        <div class="container">
-             <div class="row">
+	<!-- section Contact start -->
+	<section id="section-contact">
+		<div class="container">
+			 <div class="row">
                 <div class="heading-inner text-center">
                     <div class="heading-box">
-                        <i class="icon icon-gears" style="font-size:150px;"></i>
-                        <h1 class="big-title wow slideInLeft animated" style="visibility: visible; animation-name: slideInLeft;font-size:4em;margin-top:50px;">Coming Soon!</h1>
-                        <h4 class="big-sub-title wow slideInRight animated" style="visibility: visible; animation-name: slideInRight;"></h4>
+                        <i class="icon icon-envelope"></i>
+                        <h2 class="big-title wow slideInLeft animated" style="visibility: visible; animation-name: slideInLeft;">Contact Us</h2>
+                        <h4 class="big-sub-title wow slideInRight animated" style="visibility: visible; animation-name: slideInRight;">Send us any message or inquiry you have!</h4>
                     </div>
                     <p class="wow pulse animated" style="visibility: visible; animation-name: pulse;"></p>
                 </div>
             </div> <!-- heading row end -->
 
-            
-        </div><!-- container end -->
-    </section>
-    
-    
-
-
-	<!-- section Contact start -->
-	
+			<div class="row">
+				<div class="col-md-12">
+					<form class="contact-inner" id="contact-form" action="contact-form.php" method="post" role="form">
+						<div class="row">
+							<div class="col-md-4 wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+								<div class="form-group">
+									<label> name</label>
+									<input type="text" class="form-control" placeholder="your name" name="name" id="name" required="" style="background-image: none; background-position: 0% 0%; background-repeat: repeat;">
+								</div>
+							</div>
+							<div class="col-md-4 wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+								<div class="form-group">
+									<label> Email</label>
+									<input class="form-control" name="email" id="email" type="email" placeholder="your email" required="">
+								</div>
+							</div>
+							<div class="col-md-4 wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+								<div class="form-group">
+									<label> Subject</label>
+									<input type="text" class="form-control" placeholder="subject" name="subject" id="subject" required="">
+								</div>
+							</div>
+							<div class="col-md-12 wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+								<div class="form-group">
+									<label> mesaage</label>
+									<textarea name="" cols="30" rows="8" class="form-control" placeholder="message" id="message" required="" style="background-image: none; background-position: 0% 0%; background-repeat: repeat;"></textarea>
+								</div>
+							</div>
+						</div> <!-- row end -->
+						<div class="row">
+							<div class="col-md-12 text-center wow pulse animated" style="visibility: visible; animation-name: pulse;">
+								<button class="button button--antiman button--inverted-alt button--border-thick" type="submit">
+                                <i class="button-icon icon icon-envelope"></i><span>Send Message</span></button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div><!-- row end -->
+		</div><!-- container end -->
+	</section>
 	<!-- section Contact end -->
 
     <!-- section contact address strat -->
@@ -229,6 +189,7 @@
                         <p class="wow slideInRight animated" style="visibility: visible; animation-name: slideInRight;"></p>
 						<ul class="footer-socail list-inline">
 							<li><a href="index.html#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="index.html#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="index.html#"><i class="fa fa-instagram"></i></a></li>
 						</ul>
 					</div>
@@ -259,12 +220,14 @@
 	
 	<!-- Back To Top Button -->
     <div id="back-top" data-original-title="" title="" style="display: none;">
-        <a href="#" class="page-scroll btn btn-primary"><i class="fa fa-angle-double-up"></i></a>
+        <a href=".slider" class="page-scroll btn btn-primary"><i class="fa fa-angle-double-up"></i></a>
     </div>
     <!-- End Back To Top Button -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
     <!-- initialize jQuery Library -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <!-- Bootstrap jQuery -->
@@ -280,10 +243,12 @@
      <!-- Waypoints -->
     <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
    <!-- Scrolling navigation -->
+    <script type="text/javascript" src="js/scrolling-nav.js"></script>
     <script src="js/classie.js"></script>   
     <!-- Google Map API Key Source -->
     <script src="js/js"></script>
     <!-- Custom js -->
+    <script type="text/javascript" src="js/custom.js"></script>
 	<script>
 		new WOW().init();
 	</script>
