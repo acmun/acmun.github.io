@@ -1132,6 +1132,11 @@ h5{
     font-weight: bold;
 }
 
+.member-title{
+    font-size: 18px;
+    color: #2f2f2f;
+}
+
 #section-committee-topic{
     color: #2f2f2f;
 }
@@ -1148,4 +1153,61 @@ h5{
 .big-title{
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.committee-directors{
+    color: #222222;
+}
+
+.committee-directors h1{
+        margin-bottom: 20px;
+        font-weight: bold;
+}
+
+.committee-directors > ul > li{
+    font-size: 16px;
+}
+
+.dropdown-submenu {
+    position:relative;
+}
+
+.dropdown-submenu .menu-item{
+    margin-left: 0px;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display:block;
+}
+.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color:#ffffff;
+}
+.dropdown-submenu.pull-left {
+    float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left:-100%;
+    margin-left:10px;
+
 }

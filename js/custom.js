@@ -11,11 +11,23 @@
 $(window).load(function() { // makes sure the whole site is loaded
   "use strict";
     
-    // $('.navbar-nav li a').on('click', function(){ 
+    // $('.navbar-nav li a').on('click', function(){
     //     if($('.navbar-toggle').css('display') !='none'){
     //         $(".navbar-toggle").trigger( "click" );
     //     }
     // });
+
+    $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+    // Avoid following the href location when clicking
+    event.preventDefault();
+    // Avoid having the menu to close when clicking
+    event.stopPropagation();
+    // Re-add .open to parent sub-menu item
+    $(this).parent().addClass('open');
+    $(this).parent().find("ul").parent().find("li.dropdown").addClass('open');
+});
+
+
 
   /* ==============================================
       Menu toggle
@@ -39,11 +51,7 @@ $(window).load(function() { // makes sure the whole site is loaded
 });
   
 
-$(document).ready(function () {
-  $(".navbar-nav li a").click(function(event) {
-    $(".navbar-collapse").collapse('hide');
-  });
-});
+
 
   $(document).ready(function(){
   
